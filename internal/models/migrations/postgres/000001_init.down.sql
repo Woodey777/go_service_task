@@ -1,7 +1,7 @@
+DROP INDEX IF EXISTS projects_id;
 DROP TABLE IF EXISTS projects;
-DROP INDEX IF EXISTS projects_id
 
-DROP TABLE IF EXISTS goods;
 DROP INDEX IF EXISTS goods_id;
 DROP INDEX IF EXISTS goods_project_id;
 DROP INDEX IF EXISTS goods_name;
+DROP TABLE IF EXISTS goods;
